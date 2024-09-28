@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <link rel="stylesheet" href="styles.css"> <!-- Linking to external CSS -->
     <meta charset="UTF-8">
     <title>My First Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to external CSS -->
     <!-- This is a random comment: Welcome to my first web page! -->
 </head>
 <body>
     <h1>All About Me</h1>
-    <p>I am tall and I have short hair. I'm excited to learn more about web development and create amazing projects!</p>
- 
+    <p class="main-text">I am tall and I have short hair. I'm excited to learn more about web development and create amazing projects!</p>
+
     <h2>My Class Schedule</h2>
-    <ol>
+    <ol id="schedule"> <!-- Added an ID to the class schedule -->
         <li>Sociology</li>
         <li>Spanish III</li>
         <li>Algebra II</li>
@@ -30,7 +30,7 @@
     </ul>
 
     <h2>My Favorite Website</h2>
-    <p><a href="https://in-wts.edupoint.com/PXP2_Gradebook.aspx?AGU=0&studentGU=2E3CF7F1-FE3C-4C89-8703-2C1120D2FB00">Click here to visit my favorite website</a></p> <!-- Link to your favorite website -->
+    <p class="main-text"><a href="https://in-wts.edupoint.com/PXP2_Gradebook.aspx?AGU=0&studentGU=2E3CF7F1-FE3C-4C89-8703-2C1120D2FB00">Click here to visit my favorite website</a></p> <!-- Link to your favorite website -->
 
     <h2>Favorite Quote</h2>
     <blockquote cite="https://www.example.com">
@@ -46,13 +46,13 @@
     <button type="button" onclick="alert('Button Clicked!')">Click Me</button>
 
     <!-- Text Input Field -->
-    <p>
+    <p class="main-text">
         <label for="name">Enter your name:</label>
         <input type="text" id="name" name="name" placeholder="Your name">
     </p>
 
     <!-- Radio Button -->
-    <p>Choose your gender:</p>
+    <p class="main-text">Choose your gender:</p>
     <input type="radio" id="male" name="gender" value="male">
     <label for="male">Male</label><br>
     <input type="radio" id="female" name="gender" value="female">
@@ -61,7 +61,7 @@
     <label for="other">Other</label><br>
 
     <!-- Checkboxes -->
-    <p>Choose your interests:</p>
+    <p class="main-text">Choose your interests:</p>
     <input type="checkbox" id="coding" name="interest" value="coding">
     <label for="coding">Coding</label><br>
     <input type="checkbox" id="music" name="interest" value="music">
