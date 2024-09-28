@@ -1,3 +1,4 @@
+/* Existing styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff; /* Light background color */
@@ -14,56 +15,77 @@ h2 {
     color: #e74c3c; /* Red color for subheadings */
 }
 
-p.main-text { /* Style for paragraphs with the class 'main-text' */
+p.main-text {
     font-size: 16px;
     line-height: 1.5;
-    color: #34495e; /* Darker blue for main-text paragraphs */
-    background-color: #ecf0f1; /* Light gray background for paragraphs */
+    color: #34495e;
+    background-color: #ecf0f1;
     padding: 10px;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px;
 }
 
-ol#schedule { /* Style for the class schedule with the ID 'schedule' */
-    background-color: #3498db; /* Light blue background */
-    color: white; /* White text */
+ol#schedule {
+    background-color: #3498db;
+    color: white;
     padding: 10px;
-    border-radius: 5px; /* Rounded corners */
-    list-style-type: square; /* Square bullet points */
+    border-radius: 5px;
+    list-style-type: square;
 }
 
+/* Hover effect for the link */
 a {
-    color: #2980b9; /* Blue color for links */
-    text-decoration: none; /* Remove underline from links */
+    color: #2980b9;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
+    color: #e74c3c; /* Changes color to red on hover */
+    font-weight: bold; /* Makes the link bold on hover */
+}
+
+/* Alternating background color for 'li' tags in the class schedule */
+ol#schedule li:nth-child(odd) {
+    background-color: #2980b9; /* Darker blue for odd items */
+}
+
+ol#schedule li:nth-child(even) {
+    background-color: #3498db; /* Lighter blue for even items */
+}
+
+/* Alternating background color for 'li' tags in favorite colors list */
+ul li:nth-child(odd) {
+    background-color: #f1c40f; /* Yellow for odd items */
+}
+
+ul li:nth-child(even) {
+    background-color: #f39c12; /* Orange for even items */
 }
 
 table {
-    width: 100%; /* Full width table */
-    border-collapse: collapse; /* Collapse borders */
+    width: 100%;
+    border-collapse: collapse;
 }
 
 th {
-    background-color: #3498db; /* Blue background for headers */
-    color: white; /* White text for headers */
+    background-color: #3498db;
+    color: white;
 }
 
 td {
     padding: 10px;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 button {
-    background-color: #2ecc71; /* Green button */
-    color: white; /* White text */
+    background-color: #2ecc71;
+    color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #27ae60; /* Darker green on hover */
+    background-color: #27ae60;
 }
