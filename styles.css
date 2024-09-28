@@ -14,9 +14,21 @@ h2 {
     color: #e74c3c; /* Red color for subheadings */
 }
 
-p {
+p.main-text { /* Style for paragraphs with the class 'main-text' */
     font-size: 16px;
     line-height: 1.5;
+    color: #34495e; /* Darker blue for main-text paragraphs */
+    background-color: #ecf0f1; /* Light gray background for paragraphs */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+ol#schedule { /* Style for the class schedule with the ID 'schedule' */
+    background-color: #3498db; /* Light blue background */
+    color: white; /* White text */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    list-style-type: square; /* Square bullet points */
 }
 
 a {
