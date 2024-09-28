@@ -1,10 +1,12 @@
+/* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Light background color */
-    color: #333; /* Dark text color */
+    background-color: #f0f8ff;
+    color: #333;
     margin: 20px;
 }
 
+/* Specificity: Element > Class */
 h1 {
     color: #2c3e50; /* Dark blue color for main heading */
     text-align: center;
@@ -14,6 +16,7 @@ h2 {
     color: #e74c3c; /* Red color for subheadings */
 }
 
+/* Specificity: Class selector */
 p.main-text {
     font-size: 16px;
     line-height: 1.5;
@@ -23,12 +26,26 @@ p.main-text {
     border-radius: 5px;
 }
 
+/* Specificity: ID selector */
 ol#schedule {
     background-color: #3498db;
     color: white;
     padding: 10px;
     border-radius: 5px;
     list-style-type: square;
+}
+
+/* Specificity condition 1: Element + ID (More specific than just an element) */
+#schedule li {
+    font-size: 18px; /* Make the class schedule items larger */
+    margin-bottom: 5px;
+}
+
+/* Specificity condition 2: Class + Element (More specific than just an element) */
+p.main-text input[type="text"] {
+    border: 2px solid #2ecc71;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 /* Hover effect for the link */
@@ -39,26 +56,26 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #e74c3c; /* Changes color to red on hover */
-    font-weight: bold; /* Makes the link bold on hover */
+    color: #e74c3c;
+    font-weight: bold;
 }
 
-/* Alternating background color for 'li' tags in the class schedule */
+/* Alternating background color for 'li' tags in class schedule */
 ol#schedule li:nth-child(odd) {
-    background-color: #2980b9; /* Darker blue for odd items */
+    background-color: #2980b9;
 }
 
 ol#schedule li:nth-child(even) {
-    background-color: #3498db; /* Lighter blue for even items */
+    background-color: #3498db;
 }
 
 /* Alternating background color for 'li' tags in favorite colors list */
 ul li:nth-child(odd) {
-    background-color: #f1c40f; /* Yellow for odd items */
+    background-color: #f1c40f;
 }
 
 ul li:nth-child(even) {
-    background-color: #f39c12; /* Orange for even items */
+    background-color: #f39c12;
 }
 
 table {
@@ -88,4 +105,3 @@ button {
 button:hover {
     background-color: #27ae60;
 }
-
