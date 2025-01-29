@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Float Image Right</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F493707177906192803%2F&psig=AOvVaw3QyfCwvjH3l8xXgbq2ttIM&ust=1738204420077000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDQ_JnymYsDFQAAAAAdAAAAABAE/image.jpg" alt="Sample Image" class="float-right">
+
+        <p>
+
+I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman.
+
+
+        </p>
+
+        <p>
+
+I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman. I love Batman. I am Batman.
+
+
+        </p>
+
+    </div>
+
+</body>
+
+</html>
