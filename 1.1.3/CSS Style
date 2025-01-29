@@ -1,0 +1,38 @@
+.container {
+
+  border: 2px solid #333;
+
+  background: #f0f0f0;
+
+}
+
+
+
+/* Clearfix method */
+
+.clearfix::after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+
+
+.box {
+
+  float: left;
+
+  width: 120px;
+
+  height: 120px;
+
+  margin: 10px;
+
+  background: #e74c3c;
+
+}
+
