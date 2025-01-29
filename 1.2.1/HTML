@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Responsive Photo Gallery</title>
+
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1>Responsive Photo Gallery</h1>
+
+  <div class="gallery">
+
+    <img src="https://www.google.com/imgres?q=spiderman%20jpg&imgurl=https%3A%2F%2Fpreview.redd.it%2F2f97an638ty71.png%3Fauto%3Dwebp%26s%3D86daa412084340c70f70ef49a0ad06487a7fc49a&imgrefurl=https%3A%2F%2Fwww.reddit.com%2Fr%2FSpiderman%2Fcomments%2Fqr0kvs%2Fwhere_did_this_png_image_of_spiderman_originate%2F&docid=XJXkw5wwA-MmhM&tbnid=HIqjQ49Y01XixM&vet=12ahUKEwjG9Kyg-JmLAxVYAHkGHfdVBjMQM3oECHwQAA..i&w=1500&h=1500&hcb=2&ved=2ahUKEwjG9Kyg-JmLAxVYAHkGHfdVBjMQM3oECHwQAA" alt="Image 1">
+
+    <img src="https://www.google.com/imgres?q=spiderman%20jpg&imgurl=https%3A%2F%2Fi.etsystatic.com%2F38615118%2Fr%2Fil%2F9554c0%2F5733518917%2Fil_570xN.5733518917_6lr5.jpg&imgrefurl=https%3A%2F%2Fwww.etsy.com%2Fil-en%2Flisting%2F1646521086%2Fspiderman-png-watercolor-design-clipart&docid=KHwPV1mEksXtaM&tbnid=l7DvLvw5bHTp0M&vet=12ahUKEwjG9Kyg-JmLAxVYAHkGHfdVBjMQM3oECE8QAA..i&w=570&h=570&hcb=2&itg=1&ved=2ahUKEwjG9Kyg-JmLAxVYAHkGHfdVBjMQM3oECE8QAA" alt="Image 2">
+
+    <img src="https://www.google.com/imgres?q=spiderman%20jpg&imgurl=https%3A%2F%2Fwallpapers.com%2Fimages%2Ffeatured%2Fspiderman-background-oycfyb1ksermw921.jpg&imgrefurl=https%3A%2F%2Fwallpapers.com%2Fspiderman-background&docid=5OEtz6wkQh8mFM&tbnid=VLitDWGNefjgwM&vet=12ahUKEwjG9Kyg-JmLAxVYAHkGHfdVBjMQM3oECHgQAA..i&w=1920&h=1084&hcb=2&ved=2ahUKEwjG9Kyg-JmLAxVYAHkGHfdVBjMQM3oECHgQAA" alt="Image 3">
+
+    <img src="https://www.google.com/imgres?q=batman%20jpg&imgurl=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2024%2F06%2F22%2F16%2F55%2Fai-generated-8846672_1280.jpg&imgrefurl=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fai-generated-batman-superhero-8846672%2F&docid=2_5A9glfp_c0oM&tbnid=Y-lcxd3vd1CUkM&vet=12ahUKEwiPguaF-ZmLAxW3v4kEHcg-M7UQM3oECBsQAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwiPguaF-ZmLAxW3v4kEHcg-M7UQM3oECBsQAA" alt="Image 4">
+
+    <img src="https://www.google.com/imgres?q=batman%20jpg&imgurl=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F03%2F89%2F39%2F09%2F360_F_389390965_lwqVX10TBdFH2WMBH6GGF8pcNiOhzfnb.jpg&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dbatman&docid=JE74QRnSpNNgDM&tbnid=6FyubVGmGQwPmM&vet=12ahUKEwiPguaF-ZmLAxW3v4kEHcg-M7UQM3oECGcQAA..i&w=512&h=360&hcb=2&ved=2ahUKEwiPguaF-ZmLAxW3v4kEHcg-M7UQM3oECGcQAA" alt="Image 5">
+
+    <img src="https://www.google.com/imgres?q=batman%20jpg&imgurl=https%3A%2F%2Fimageio.forbes.com%2Fblogs-images%2Fscottmendelson%2Ffiles%2F2018%2F10%2FMV5BNzBhYTAxODEtNTAxNC00OWEyLWI5YmQtZjJiODJhMGFmNDM5XkEyXkFqcGdeQXVyMDc2NTEzMw%40%40._V1_SX1336_CR001336999_AL_-1200x674.jpg%3Fformat%3Djpg%26height%3D900%26width%3D1600%26fit%3Dbounds&imgrefurl=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fscottmendelson%2F2018%2F10%2F30%2Fwhy-batman-the-animated-series-is-still-the-best-superhero-show-of-all-time%2F&docid=lwc6zO7NN1J1VM&tbnid=feoOtveAE9CWDM&vet=12ahUKEwiPguaF-ZmLAxW3v4kEHcg-M7UQM3oECHgQAA..i&w=1200&h=674&hcb=2&ved=2ahUKEwiPguaF-ZmLAxW3v4kEHcg-M7UQM3oECHgQAA" alt="Image 6">
+
+    <img src="https://www.google.com/imgres?q=iron%20man%20jpg&imgurl=https%3A%2F%2Fimages6.alphacoders.com%2F110%2F1108588.jpg&imgrefurl=https%3A%2F%2Fwall.alphacoders.com%2Fbig.php%3Fi%3D1108588&docid=PGhbHPv8I_q-cM&tbnid=AzPLTRD-Z6--LM&vet=12ahUKEwiJtOOf-ZmLAxW5pokEHZPWCtcQM3oFCIUBEAA..i&w=3840&h=2160&hcb=2&ved=2ahUKEwiJtOOf-ZmLAxW5pokEHZPWCtcQM3oFCIUBEAA" alt="Image 7">
+
+    <img src="https://www.google.com/imgres?q=iron%20man%20jpg&imgurl=https%3A%2F%2Fw0.peakpx.com%2Fwallpaper%2F237%2F538%2FHD-wallpaper-ironman-superheroes-iron-man-white-background-marvel-comics.jpg&imgrefurl=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-nfnxx&docid=HIVtA-lXThHXwM&tbnid=rjuJXBMNYHNVGM&vet=12ahUKEwiJtOOf-ZmLAxW5pokEHZPWCtcQM3oECG4QAA..i&w=800&h=500&hcb=2&ved=2ahUKEwiJtOOf-ZmLAxW5pokEHZPWCtcQM3oECG4QAA" alt="Image 8">
+
+    <img src="https://www.google.com/imgres?q=iron%20man%20jpg&imgurl=https%3A%2F%2Fwallpapercat.com%2Fw%2Ffull%2F6%2F9%2Ff%2F319983-3840x2160-desktop-4k-iron-man-background.jpg&imgrefurl=https%3A%2F%2Fwallpapercat.com%2Firon-man-wallpapers&docid=ocZawd0xdSlSHM&tbnid=b2lT_iXo6c_xsM&vet=12ahUKEwiJtOOf-ZmLAxW5pokEHZPWCtcQM3oECGcQAA..i&w=3840&h=2160&hcb=2&ved=2ahUKEwiJtOOf-ZmLAxW5pokEHZPWCtcQM3oECGcQAA" alt="Image 9">
+
+    <img src="https://www.google.com/imgres?q=volcarona%20jpg&imgurl=https%3A%2F%2Fimg.pokemondb.net%2Fartwork%2Fvolcarona.jpg&imgrefurl=https%3A%2F%2Fwww.dandwiki.com%2Fwiki%2FVolcarona_(5e_Creature)&docid=MzU6aGtFr6vMsM&tbnid=TtbYqSAtxA9zXM&vet=12ahUKEwiN86nB-ZmLAxVikokEHeUaLVkQM3oECGcQAA..i&w=360&h=311&hcb=2&ved=2ahUKEwiN86nB-ZmLAxVikokEHeUaLVkQM3oECGcQAA" alt="Image 10">
+
+    <img src="https://www.google.com/imgres?q=volcarona%20jpg&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FvKGsaCDjCRM%2Fhq720.jpg%3Fsqp%3D-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD%26rs%3DAOn4CLDQQTqpGDblngLp38YYipyUOWhGyQ&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvKGsaCDjCRM&docid=tADtiF8VGSEevM&tbnid=R7H4fxw9iborSM&vet=12ahUKEwiN86nB-ZmLAxVikokEHeUaLVkQM3oECF4QAA..i&w=686&h=386&hcb=2&ved=2ahUKEwiN86nB-ZmLAxVikokEHeUaLVkQM3oECF4QAA" alt="Image 11">
+
+    <img src="https://www.google.com/imgres?q=volcarona%20jpg&imgurl=https%3A%2F%2Fwww.bigorbitcards.co.uk%2F314935-large_default%2Fvolcarona-v.jpg&imgrefurl=https%3A%2F%2Fwww.bigorbitcards.co.uk%2Fpokemon%2Fevolving-skies%2Fvolcarona-v.html&docid=R_QzMywfu8biHM&tbnid=OpMIgAT-NisBxM&vet=12ahUKEwiN86nB-ZmLAxVikokEHeUaLVkQM3oECHwQAA..i&w=750&h=750&hcb=2&ved=2ahUKEwiN86nB-ZmLAxVikokEHeUaLVkQM3oECHwQAA" alt="Image 12">
+
+  </div>
+
+</body>
+
+</html>
