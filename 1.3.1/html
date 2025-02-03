@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Grid Layout</title>
+
+    <style>
+
+        .grid-container {
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 50px);
+
+            grid-template-rows: repeat(3, 50px);
+
+            gap: 5px; /* Optional spacing */
+
+            width: max-content;
+
+            background-color: #ddd;
+
+            padding: 10px;
+
+        }
+
+
+
+        .item {
+
+            background-color: steelblue;
+
+            color: white;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 14px;
+
+            font-weight: bold;
+
+        }
+
+
+
+        .item1 {
+
+            grid-column: 1 / -1; /* Span all columns in the first row */
+
+        }
+
+
+
+        .item2 {
+
+            grid-column: 2;
+
+            grid-row: 2;
+
+        }
+
+
+
+        .item3 {
+
+            grid-column: 1 / -1; /* Span all columns in the last row */
+
+            grid-row: 3;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="item item1">Item 1</div>
+
+        <div class="item item2">Item 2</div>
+
+        <div class="item item3">Item 3</div>
+
+    </div>
+
+</body>
+
+</html>
