@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Console Output</title>
+
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+// Basic Function: Returns the square of a number
+
+function square(num) {
+
+    return num * num;
+
+}
+
+
+
+console.log("Square of 4:", square(4));
+
+console.log("Square of 7:", square(7));
+
+
+
+// Arrow Function: Rewrite of the greet function
+
+const greet = (name) => `Hello, ${name}!`;
+
+
+
+console.log(greet("Jalyn"));
+
+console.log(greet("Alex"));
+
+
+
+// Closures: Function that generates a counter starting from 5
+
+function createCounter() {
+
+    let count = 5;
+
+    return function() {
+
+        return count++;
+
+    };
+
+}
+
+
+
+const counter = createCounter();
+
+console.log("Counter:", counter());
+
+console.log("Counter:", counter());
+
+console.log("Counter:", counter());
+
+console.log("Counter:", counter());
+
+console.log("Counter:", counter());
+
