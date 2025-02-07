@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Object Manipulation</title>
+
+</head>
+
+<body>
+
+
+
+    <h1>Check the Console for Output</h1>
+
+
+
+    <script>
+
+        let book = {
+
+            title: "Harry Potter and the Sorcerer's Stone",
+
+            author: "J.K. Rowling",
+
+            year: 1997,
+
+
+
+            getSummary: function() {
+
+                return `${this.title} by ${this.author}`;
+
+            }
+
+        };
+
+
+
+        book.genre = "Fantasy";
+
+        delete book.year;
+
+
+
+        console.log(book);
+
+        console.log(book.getSummary());
+
+    </script>
+
+
+
+</body>
+
+</html>
