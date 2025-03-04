@@ -1,0 +1,34 @@
+class ValidationError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "ValidationError";
+  }
+}
+
+function validateUsername(username) {
+  if (!username) {
+    throw new ValidationError("Username is required.");
+  }
+  if (username.length < 5) {
+    throw new ValidationError("Username must be at least 5 characters long.");
+  }
+  if (username.length > 20) {
+    throw new ValidationError("Username must be no more than 20 characters long.");
+  }
+  if (!/^[a-zA-Z0-9]+$/.test(username)) {
+    throw new ValidationError("Username can only contain alphanumeric characters.");
+  }
+  return true;
+}
+
+// Example usage with "user123"
+try {
+  validateUsername("user123");
+  console.log("Username is valid.");
+} catch (error) {
+  if (error instanceof ValidationError) {
+    console.error("Validation Error:", error.message);
+  } else {
+    console.error("An unexpected error occurred:", error);
+  }
+}
