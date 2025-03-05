@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bouncing Ball</title>
+  <style>
+    #ball {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-25px); /* Center the ball */
+    }
+  </style>
+</head>
+<body>
+  <div id="ball"></div>
+
+  <script>
+    const ball = document.getElementById('ball');
+    let position = 0;
+    let velocity = 5; // Adjust speed here
+    const ground = window.innerHeight - 50; // Ground level
+
+    function animate() {
+      position += velocity;
+
+      if (position >= ground) {
+        position = ground;
+        velocity = -velocity * 0.8; // Reverse direction, reduce bounce
+      }
+
+      if (position <= 0) {
+        position = 0;
+        velocity = -velocity;
+      }
+
+      ball.style.top = position + 'px';
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  </script>
+</body>
+</html>
