@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <style>
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h2>Login</h2>
+  <form id="loginForm">
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <span id="emailError" class="error"></span>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <span id="passwordError" class="error"></span>
+    </div>
+    <button type="button" onclick="validateForm()">Login</button>
+  </form>
+
+  <script>
+    function validateForm() {
+      let email = document.getElementById("email").value;
+      let password = document.getElementById("password").value;
+      let emailError = document.getElementById("emailError");
+      let passwordError = document.getElementById("passwordError");
+
+      emailError.textContent = "";
+      passwordError.textContent = "";
+
+      let isValid = true;
+
+      if (!email) {
+        emailError.textContent = "Email is required.";
+        isValid = false;
+      }
+
+      if (!password) {
+        passwordError.textContent = "Password is required.";
+        isValid = false;
+      }
+
+      if (isValid) {
+        // Simulate successful login
+        alert("Login successful!");
+        // Here you would normally send the form data to a server
+      }
+    }
+  </script>
+</body>
+</html>
