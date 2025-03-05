@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gradient Card</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(to right, #6a11cb, #2575fc); /* Linear gradient background */
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+      text-align: center;
+      width: 300px; /* Adjust as needed */
+    }
+
+    h1 {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Centered Card</h1>
+    <p>This card has a box shadow and is centered on a linear gradient background.</p>
+  </div>
+
+</body>
+</html>
