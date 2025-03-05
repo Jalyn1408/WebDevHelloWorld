@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Batman Profile Card</title>
+  <style>
+    .profile-card {
+      width: 200px;
+      text-align: center;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      font-family: sans-serif;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .profile-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .profile-description {
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="https://i.pinimg.com/originals/18/84/c4/1884c49f6448373199b50b5550302395.jpg" alt="Batman Profile Picture" class="profile-image">
+    <div class="profile-name">Batman</div>
+    <div class="profile-description">
+      The Dark Knight of Gotham City. Billionaire Bruce Wayne, driven by the loss of his parents, fights crime with his intellect, gadgets, and martial arts skills.
+    </div>
+  </div>
+
+</body>
+</html>
