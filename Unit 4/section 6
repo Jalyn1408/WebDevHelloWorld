@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Toggle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="theme-toggle">Toggle Theme</button>
+  <div class="content">
+    <h1>My Themed Website</h1>
+    <p>This is some content that will change based on the theme.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --button-bg: #4CAF50;
+  --button-text: white;
+}
+
+[data-theme="dark"] {
+  --bg-color: #333;
+  --text-color: #f9f9f9;
+  --button-bg: #555;
+  --button-text: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#theme-toggle {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+themeToggle.addEventListener('click', () => {
+  if (body.dataset.theme === 'dark') {
+    body.dataset.theme = 'light';
+  } else {
+    body.dataset.theme = 'dark';
+  }
+});
+
+//initial theme setting
+if (!body.dataset.theme) {
+  body.dataset.theme = 'light';
+}
