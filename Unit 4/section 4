@@ -1,0 +1,26 @@
+<div class="image-container">
+  <img src="https://m.media-amazon.com/images/I/81bY9jQ3qTL.jpg" alt="Filtered Batman Image" class="filtered-image">
+</div>
+.image-container {
+  width: 400px; /* Adjust as needed */
+  margin: 20px auto;
+  overflow: hidden; /* Prevent potential overflow */
+}
+
+.filtered-image {
+  width: 100%;
+  height: auto;
+  transition: filter 0.5s ease; /* Smooth transition on hover, if desired */
+}
+
+.filtered-image:hover {
+  /* You can add a different filter on hover for interaction */
+}
+
+.filtered-image {
+  filter:
+    brightness(1.1)
+    contrast(1.2)
+    saturate(1.1)
+    grayscale(0.1);
+}
