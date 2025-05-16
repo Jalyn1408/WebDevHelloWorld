@@ -1,0 +1,27 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const summonBatsBtn = document.getElementById('summonBatsBtn');
+    const mainContent = document.querySelector('main');
+
+    if (summonBatsBtn && mainContent) {
+        summonBatsBtn.addEventListener('click', () => {
+            emitBats(mainContent);
+        });
+    }
+
+    function emitBats(container) {
+        const numberOfBats = 5;
+        for (let i = 0; i < numberOfBats; i++) {
+            createBat(container);
+        }
+    }
+
+    function createBat(container) {
+        const bat = document.createElement('div');
+        bat.classList.add('bat', 'flying-bat');
+
+        const startY = Math.random() * container.offsetHeight;
+        const endY = Math.random() * container.offsetHeight;
+        const duration = 3 + Math.random() * 3;
+
+        bat.style.setProperty('--y-start', `${startY}px`);
+        bat.style.setProperty('--
