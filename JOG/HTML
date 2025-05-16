@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotham Guardians | Protecting Our City</title>
+    <link rel="stylesheet" href="css/style-simple.css">
+    <link rel="stylesheet" href="css/bats-simple.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav>
+            <div class="logo">Gotham Guardians</div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="participate.html">Vigilance Network</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Shadows Unite for Gotham</h1>
+                <p>Join the Gotham Guardians, a network of dedicated citizens committed to safeguarding our city.</p>
+                <a href="participate.html" class="button">Join the Network</a>
+                <button id="summonBatsBtn" class="bat-button">Summon Bats</button>
+            </div>
+        </section>
+
+        <section class="initiatives">
+            <h2>Our Watchful Eyes</h2>
+            <div class="initiative-grid">
+                <div class="initiative-item">
+                    <img src="https://via.placeholder.com/80?text=Report" alt="Report">
+                    <h3>Report Activity</h3>
+                    <p>Report anything suspicious.</p>
+                </div>
+                <div class="initiative-item">
+                    <img src="https://via.placeholder.com/80?text=Analyze" alt="Analyze">
+                    <h3>Analyze Data</h3>
+                    <p>Help find crime patterns.</p>
+                </div>
+                <div class="initiative-item">
+                    <img src="https://via.placeholder.com/80?text=Support" alt="Support">
+                    <h3>Support Watch</h3>
+                    <p>Help neighborhood groups.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+                <button type="submit" class="button">Send Intel</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gotham Guardians</p>
+    </footer>
+
+    <script src="js/script-simple.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Jalyn Leavell | Gotham Guardians</title>
+    <link rel="stylesheet" href="css/style-simple.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav>
+            <div class="logo">Gotham Guardians</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="participate.html">Vigilance Network</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="about-page">
+        <section>
+            <h2>About Me</h2>
+            <p>Hi, I'm Jalyn Leavell, a 16-year-old student at Warren Central High School.</p>
+            <h3>My Info:</h3>
+            <ul>
+                <li>Age: 16</li>
+                <li>School: Warren Central High School</li>
+                <li>Course: Web Development</li>
+                <li>GPA: 3.7</li>
+                <li>Class Rank: Top 70</li>
+            </ul>
+            <p>I'm learning web development and this project is part of that. It's a website for "Gotham Guardians."</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gotham Guardians</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigilance Network | Gotham Guardians</title>
+    <link rel="stylesheet" href="css/style-simple.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav>
+            <div class="logo">Gotham Guardians</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="participate.html" class="active">Vigilance Network</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="participate-page">
+        <section class="opportunities">
+            <h2>Get Involved</h2>
+            <p>Here's how you can help Gotham:</p>
+            <div class="opportunity-list">
+                <div class="opportunity-item" data-modal="reportModal">
+                    <h3>Report Suspicious Activity</h3>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="opportunity-item" data-modal="analysisModal">
+                    <h3>Analyze Crime Data</h3>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="opportunity-item" data-modal="supportModal">
+                    <h3>Support Local Watch Groups</h3>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <div id="reportModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3>Reporting Details</h3>
+                <p>More info about reporting...</p>
+                <button class="button">Submit Report</button>
+            </div>
+        </div>
+
+        <div id="analysisModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3>Analysis Details</h3>
+                <p>More info about analyzing data...</p>
+                <button class="button">Analyze Data</button>
+            </div>
+        </div>
+
+        <div id="supportModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3>Support Details</h3>
+                <p>More info about supporting watch groups...</p>
+                <button class="button">Find Groups</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gotham Guardians</p>
+    </footer>
+
+    <script src="js/script-simple.js"></script>
+</body>
+</html>
+
+
